@@ -13,11 +13,11 @@ using System.Text;
 
 public class TwilioSMSManager : MonoBehaviour
 {
-    private const string ACCOUNT_SID = "ACb5e96f853866ddb20155b3533a4ba567";
-    private const string AUTH_TOKEN = "41e4278db2a02d0ea466bb1ed227d81b";
-    private const string FROM_NUMBER = "+12293039475";
-    private const string TO_NUMBER = "+919819225333";
-    private const string TWILIO_API_URL = "https://api.twilio.com/2010-04-01/Accounts/{0}/Messages.json";
+    private const string ACCOUNT_SID = "*";
+    private const string AUTH_TOKEN = "*";
+    private const string FROM_NUMBER = "*";
+    private const string TO_NUMBER = "*";
+    private const string TWILIO_API_URL = "*";
 
     private bool lastMotorStatus = false;
 
@@ -78,7 +78,7 @@ public class TwilioSMSManager : MonoBehaviour
 public class SoilMoistureVisualizer : MonoBehaviour
 {
     [Header("Firebase Configuration")]
-    [SerializeField] private string databaseUrl = "https://finalparul-default-rtdb.asia-southeast1.firebasedatabase.app/";
+    [SerializeField] private string databaseUrl = "*";
 
     private DatabaseReference sensorDataRef;
     private DatabaseReference motorControlRef;
