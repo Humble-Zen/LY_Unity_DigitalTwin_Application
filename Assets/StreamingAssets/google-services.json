@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "773084322234",
-    "firebase_url": "https://cropdatabasemoisture-default-rtdb.asia-southeast1.firebasedatabase.app",
-    "project_id": "cropdatabasemoisture",
-    "storage_bucket": "cropdatabasemoisture.firebasestorage.app"
+    "project_number": "*",
+    "firebase_url": "*",
+    "project_id": "*",
+    "storage_bucket": "*"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:773084322234:android:f68a2ae9f419f25c01e583",
+        "mobilesdk_app_id": "*",
         "android_client_info": {
           "package_name": "Agri_Fusion.Team"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDEl2RrKhbZLd7jC9cjo1q7TC9Y-iGqtA4"
+          "current_key": "*"
         }
       ],
       "services": {
