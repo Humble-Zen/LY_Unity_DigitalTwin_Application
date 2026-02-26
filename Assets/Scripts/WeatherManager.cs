@@ -32,7 +32,7 @@ public class WeatherManager : MonoBehaviour
     public ParticleSystem rainEffect;
 
     // API Configuration
-    private string apiKey = "fa993d23535506cb36d0ae03f8870763";
+    private string apiKey = "**************************";
     private string city = "Mumbai";
     private string units = "metric";
     private string lang = "en";
